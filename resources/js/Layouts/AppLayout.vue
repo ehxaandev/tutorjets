@@ -52,6 +52,11 @@ const logout = () => {
                                     Dashboard
                                 </NavLink>
                             </div>
+                            <div class="shrink-0 flex items-center">
+                                <Link :href="route('tutors.index')">
+                                    Tutors
+                                </Link>
+                            </div>
                         </div>
 
                         <div class="hidden sm:flex sm:items-center sm:ms-6">
